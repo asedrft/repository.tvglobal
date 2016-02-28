@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addons>
 <addon id="plugin.video.live.streamspro"
        name="LiveStreamsPro"
        version="2.3.0"
@@ -14,7 +13,7 @@
     <import addon="script.module.youtube.dl" optional="true"/>
     <import addon="plugin.video.youtube" optional="true" />
     <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
+    <import addon="script.module.simplejson" />    
      <import addon="script.module.livestreamer" optional="true"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
@@ -35,23 +34,8 @@
         9. you can now append cookies in response and then read in regex using includeheaders
         10. You can now link to another web url via your xml using externallink
         11. support for google captcha, now you can show and then post the text
-
+        
     </description>
     <platform>all</platform>
   </extension>
 </addon>
-
-<addon id="repository.tvglobal" name="Repository TV Global" version="0.0.1" provider-name="asedrft">
-	<extension point="xbmc.addon.repository" name="Repository TV Global Add-on Repository">
-		<info compressed="false">http://raw.github.com/asedrft/repository.tvglobal/master/addons.xml</info>
-		<checksum>http://raw.github.com/asedrft/repository.tvglobal/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.github.com/asedrft/repository.tvglobal/master/repo/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>repository.tvglobal Addon</summary>
-		<description>Todos os addon favoritos.</description>
-		<disclaimer></disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-</addons>
