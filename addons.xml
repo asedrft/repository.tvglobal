@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="repository.tvglobal" name="Repository TV Global" version="0.0.1" provider-name="asedrft">
+	<extension point="xbmc.addon.repository" name="Repository TV Global Add-on Repository">
+		<info compressed="false">http://raw.github.com/asedrft/repository.tvglobal/master/addons.xml</info>
+		<checksum>http://raw.github.com/asedrft/repository.tvglobal/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/asedrft/repository.tvglobal/master/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>repository.tvglobal Addon</summary>
+		<description>Todos os addon favoritos.</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>
